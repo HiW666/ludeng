@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  StreetLampsManager
+//
+//  Created by 冼嘉良 on 2019/9/16.
+//  Copyright © 2019 xjl. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Header.h"
+#import "Macros_UIAdapter.h"
+#import "ServerApi.h"
+///屏幕宽度
+#define SCRW [UIScreen mainScreen].bounds.size.width
+///屏幕高度
+#define SCRH [UIScreen mainScreen].bounds.size.height
+///颜色RGB
+#define COLOR(r,g,b) [UIColor colorWithRed: r/255.0 green: g/255.0 blue:b/255.0 alpha:1.0]
+//本地保存(USERDEFAULT)
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
+#define WeakSelf(type) __weak __typeof__(type) weakSelf = type;
+
+#endif /* PrefixHeader_pch */

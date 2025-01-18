@@ -1,0 +1,25 @@
+source 'git@github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+#inhibit_all_warnings!
+
+#use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/aliyun/aliyun-specs.git'
+def common 
+ 
+    pod 'AFNetworking'
+#    pod 'AlicloudPush', '~> 1.9.8'
+    pod 'IQKeyboardManager', '~> 6.0.1'
+    pod 'SDWebImage','3.7.5'
+    pod 'MJExtension', '~> 3.0.15.1'
+    pod 'MJRefresh', '~> 3.1.15.7'
+    pod 'JPush'
+
+end
+
+target "StreetLampsManager" do
+    
+common
+
+
+end
