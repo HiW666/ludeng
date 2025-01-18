@@ -46,4 +46,6 @@
 ![image](https://github.com/HiW666/ludeng/blob/master/img/%E5%9B%BE%E7%89%873.png?raw=true)
 ### 移动APP终端
 移动APP终端的现实界面与Web端一致，信息同步。设备列表情况如图23所示，故障信息情况如图24所示，数据状态指示如图25所示，历史数据如图26所示。
+
+
 ![image](https://github.com/HiW666/ludeng/blob/master/img/%E5%9B%BE%E7%89%874.jpg?raw=true)
